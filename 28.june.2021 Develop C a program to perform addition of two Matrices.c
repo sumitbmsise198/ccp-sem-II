@@ -17,7 +17,7 @@ void main()
 	    print(c);
 }
 void print(int arr[2][3]){
-    printf("\nThe new matrix is:\n");
+    printf("\nThe new matrix (Sum of two above matrix) is:\n");
 	for(int i=0;i<2;i++)
         {
 		for(int j=0;j<3;j++){
