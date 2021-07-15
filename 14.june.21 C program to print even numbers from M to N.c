@@ -15,9 +15,10 @@ int main() {
     return 0;
 }
 void print(int m, int n){
+    printf("Even numbers between %d and %d:\n",m,n);
     do{
         if(m%2==0){
-            printf("%d \n", m);
+            printf(">%d \n", m);
             m=m+1;
         }
         else{
